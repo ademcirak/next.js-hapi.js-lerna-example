@@ -1,0 +1,23 @@
+{
+  "name": "bulmacasozulugu-net-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "b": "lerna bootstrap",
+    "dev": "cd apps/backend && npm run watch",
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "start": "cd apps/backend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.17.0"
+  },
+  "dependencies": {
+    "next": "^9.1.1"
+  }
+}
