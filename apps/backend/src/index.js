@@ -5,7 +5,7 @@ import {
     defaultHandlerWrapper,
     nextHandlerWrapper
 } from './utils/next-warapper';
-import next from '@app/frontend';
+import next from 'next';
 import env from '@app/env';
 
 const init = async () => {

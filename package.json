@@ -7,7 +7,7 @@
     "b": "lerna bootstrap",
     "dev": "cd apps/backend && npm run watch",
     "build": "lerna run build",
-    "clean": "lerna run clean",
+    "clear": "lerna run clean",
     "start": "cd apps/backend && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
